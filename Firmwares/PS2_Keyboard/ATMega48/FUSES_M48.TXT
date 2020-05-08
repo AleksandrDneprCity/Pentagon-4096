@@ -1,0 +1,47 @@
+FUSES для ATMega48/88/168 с внешним генератором
+в no_WAIT контроллере PS/2 клавиатуры:
+-------------------------------------
+ Name     ! Default  !   SET  ! MODE
+-------------------------------------
+CKSEL0    !    on    !    on  !\    Внешний
+CKSEL1    !   off    !    on  ! > - генератор 20 Мгц
+CKSEL2    !    on    !    on  ! /
+CKSEL3    !    on    !    on  !/
+SUT0      !    on    !   off  !
+SUT1      !   off    !    on  !
+CKOUT     !   off    !   off  ! Выход Clk отключен
+CKDIV8    !    on    !   off  ! Делитель на 8 отключен
+BODLEVEL0 !   off    !    on  !\
+BODLEVEL1 !   off    !    on  ! > - 4.3 V
+BODLEVEL2 !   off    !   off  !/
+EESAVE    !   off    !    on  ! Сохранить EEPROM
+WDTON     !   off    !   off  ! Watch Dog отключен
+SPIEN     !    on    !    on  ! Всегда должен быть '0'
+DWEN      !   off    !   off  ! Отладка отключена
+RSTDISBL  !   off    !   off  ! Вход /RST как СБРОС
+SELFPRGEN !   off    !   off  !
+---------------------------------------
+
+FUSES для ATMega48/88/168 с внешним кварцем
+в no_WAIT контроллере PS/2 клавиатуры:
+-------------------------------------
+ Name     ! Default  !   SET  ! MODE
+-------------------------------------
+CKSEL0    !    on    !   off  !\    Внешний
+CKSEL1    !   off    !   off  ! > - кварц 20 Мгц
+CKSEL2    !    on    !   off  ! /
+CKSEL3    !    on    !   off  !/
+SUT0      !    on    !    on  !
+SUT1      !   off    !   off  !
+CKOUT     !   off    !   off  ! Выход Clk отключен
+CKDIV8    !    on    !   off  ! Делитель на 8 отключен
+BODLEVEL0 !   off    !    on  !\
+BODLEVEL1 !   off    !    on  ! > - 4.3 V
+BODLEVEL2 !   off    !   off  !/
+EESAVE    !   off    !    on  ! Сохранить EEPROM
+WDTON     !   off    !   off  ! Watch Dog отключен
+SPIEN     !    on    !    on  ! Всегда должен быть '0'
+DWEN      !   off    !   off  ! Отладка отключена
+RSTDISBL  !   off    !   off  ! Вход /RST как СБРОС
+SELFPRGEN !   off    !   off  !
+---------------------------------------
