@@ -1,6 +1,6 @@
 G04*
-G04  File:            MAINBOARD-V10.3.2.GBO, Thu Sep 04 00:44:48 2025*
-G04  Source:          P-CAD 2006 PCB, Version 19.02.958, (D:\PCAD-2006\Projects\Pentagon-4096\Hardware\MainBoard-v10.3.2.PCB)*
+G04  File:            MAINBOARD-V10.3.3.GBO, Thu Sep 04 11:49:13 2025*
+G04  Source:          P-CAD 2006 PCB, Version 19.02.958, (D:\PCAD-2006\Projects\Pentagon-4096\Hardware\MainBoard-v10.3.3.PCB)*
 G04  Format:          Gerber Format (RS-274-D), ASCII*
 G04*
 G04  Format Options:  Absolute Positioning*
@@ -24,7 +24,7 @@ G04                   Values*
 G04                   No Drill Symbols*
 G04                   Bot Silk*
 G04*
-%INMAINBOARD-V10.3.2.GBO*%
+%INMAINBOARD-V10.3.3.GBO*%
 %ICAS*%
 %MOIN*%
 G04*
