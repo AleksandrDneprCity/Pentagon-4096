@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATtiny2313</DEVICE>
+ <WORKING_DIR>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Programming\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Programming\AVR Tools\AvrAssembler2\Appnotes\tn2313def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Start><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>29</LINE></Start>
+  <Int_Timer0_OVF><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>25</LINE></Int_Timer0_OVF>
+  <Interrupt><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>50</LINE></Interrupt>
+  <Main><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>46</LINE></Main>
+  <PwrFlash><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>106</LINE></PwrFlash>
+  <LedTurboOff><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>62</LINE></LedTurboOff>
+  <Itr0><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>64</LINE></Itr0>
+  <DigitTable><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>117</LINE></DigitTable>
+  <NoIncZH><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>77</LINE></NoIncZH>
+  <LDigitNum><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>82</LINE></LDigitNum>
+  <OutDigitNum><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>88</LINE></OutDigitNum>
+  <IntRet><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>103</LINE></IntRet>
+  <RetFlash><FILE>G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm</FILE><LINE>114</LINE></RetFlash>
+ </LABELS>
+</ASSEMBLER_INFO>
