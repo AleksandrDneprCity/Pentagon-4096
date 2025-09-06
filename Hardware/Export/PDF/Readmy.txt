@@ -1,0 +1,39 @@
+Индикатор частоты процессора для установки в корпус:
+
+FreqInd-sch.pdf					Принципиальная схема
+
+Версия платы 1:
+FreqInd-v1-pcb-comp-top.pdf			Компоненты на плате на верхней стороне
+FreqInd-v1-pcb-comp-bottom.pdf			Компоненты на плате на нижней стороне
+FreqInd-v1-pcb-layer-bottom.pdf			Дорожки на нижней стороне (с зеркалированием)
+FreqInd-v1-pcb-layer-top.pdf			Дорожки на верхней стороне
+FreqInd-v1-pcb-layer-bottom-fotores.pdf		Дорожки на нижней стороне для фоторезиста
+FreqInd-v1-pcb-layer-top-fotores.pdf		Дорожки на верхней стороне для фоторезиста (с зеркалированием)
+
+Версия платы 2:					Под горизонтальный корпус
+FreqInd-v2-pcb-comp-top.pdf			Компоненты на плате на верхней стороне
+FreqInd-v2-pcb-comp-bottom.pdf			Компоненты на плате на нижней стороне
+FreqInd-v2-pcb-layer-bottom.pdf			Дорожки на нижней стороне (с зеркалированием)
+FreqInd-v2-pcb-layer-top.pdf			Дорожки на верхней стороне
+FreqInd-v2-pcb-layer-bottom-fotores.pdf		Дорожки на нижней стороне для фоторезиста
+FreqInd-v2-pcb-layer-top-fotores.pdf		Дорожки на верхней стороне для фоторезиста (с зеркалированием)
+
+
+Материнская плата Pentagon-4096:
+
+MainBoard-v10.3-sch.pdf				Принципиальная схема
+
+MainBoard-v10.3-pcb-comp.pdf			Компоненты на плате
+MainBoard-v10.3-pcb-layer-bottom.pdf		Дорожки на нижней стороне (с зеркалированием)
+MainBoard-v10.3-pcb-layer-gnd.pdf		Дорожки на внутреннем слое "земля"
+MainBoard-v10.3-pcb-layer-power.pdf		Дорожки на внутреннем слое "питание"
+MainBoard-v10.3-pcb-layer-top.pdf		Дорожки на верхней стороне
+
+Верхняя плата Pentagon-4096:
+
+TopBoard-v5.1-sch.pdf				Принципиальная схема
+
+TopBoard-v5.1-pcb-comp-top.pdf			Компоненты на плате на верхней стороне
+TopBoard-v5.1-pcb-comp-bottom.pdf		Компоненты на плате на нижней стороне
+TopBoard-v5.1-pcb-layer-bottom.pdf		Дорожки на нижней стороне (с зеркалированием)
+TopBoard-v5.1-pcb-layer-top.pdf			Дорожки на верхней стороне
