@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Programming\AVR Tools\AvrAssembler2\avrasm2.exe" -S "G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\labels.tmp" -fI -W+ie -C V2 -o "G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.hex" -d "G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.obj" -e "G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.eep" -m "G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.map" "G:\ZX-Spectrum\Hardware\Freqensy Indicator\FreqInd\FreqInd.asm"
