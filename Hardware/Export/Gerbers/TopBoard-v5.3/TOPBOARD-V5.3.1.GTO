@@ -1,6 +1,6 @@
 G04*
-G04  File:            TOPBOARD-V5.3.0.GTO, Sat Oct 04 01:36:21 2025*
-G04  Source:          P-CAD 2006 PCB, Version 19.02.958, (D:\PCAD-2006\Projects\Pentagon-4096\Hardware\TopBoard-v5.3.0.PCB)*
+G04  File:            TOPBOARD-V5.3.1.GTO, Thu Oct 23 13:35:18 2025*
+G04  Source:          P-CAD 2006 PCB, Version 19.02.958, (D:\PCAD-2006\Projects\Pentagon-4096\Hardware\TopBoard-v5.3.1.PCB)*
 G04  Format:          Gerber Format (RS-274-D), ASCII*
 G04*
 G04  Format Options:  Absolute Positioning*
@@ -24,7 +24,7 @@ G04                   Values*
 G04                   No Drill Symbols*
 G04                   Top Silk*
 G04*
-%INTOPBOARD-V5.3.0.GTO*%
+%INTOPBOARD-V5.3.1.GTO*%
 %ICAS*%
 %MOIN*%
 G04*
@@ -189,39 +189,45 @@ G04  Disc: OuterDia=0.0960*
 G04  D39 : "Rectangle X114.0mil Y114.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.1140, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
 %ADD39R, 0.1140 X0.1140*%
-G04  D40 : "Rectangle X50.0mil Y50.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+G04  D40 : "Rectangle X116.0mil Y116.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+G04  Square: Side=0.1160, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
+%ADD40R, 0.1160 X0.1160*%
+G04  D41 : "Rectangle X131.0mil Y131.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+G04  Square: Side=0.1310, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
+%ADD41R, 0.1310 X0.1310*%
+G04  D42 : "Rectangle X50.0mil Y50.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.0500, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
-%ADD40R, 0.0500 X0.0500*%
-G04  D41 : "Rectangle X60.0mil Y60.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD42R, 0.0500 X0.0500*%
+G04  D43 : "Rectangle X60.0mil Y60.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.0600, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
-%ADD41R, 0.0600 X0.0600*%
-G04  D42 : "Rectangle X64.0mil Y64.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD43R, 0.0600 X0.0600*%
+G04  D44 : "Rectangle X64.0mil Y64.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.0640, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
-%ADD42R, 0.0640 X0.0640*%
-G04  D43 : "Rectangle X65.0mil Y65.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD44R, 0.0640 X0.0640*%
+G04  D45 : "Rectangle X65.0mil Y65.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.0650, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
-%ADD43R, 0.0650 X0.0650*%
-G04  D44 : "Rectangle X69.0mil Y69.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD45R, 0.0650 X0.0650*%
+G04  D46 : "Rectangle X69.0mil Y69.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.0690, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
-%ADD44R, 0.0690 X0.0690*%
-G04  D45 : "Rectangle X75.0mil Y75.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD46R, 0.0690 X0.0690*%
+G04  D47 : "Rectangle X75.0mil Y75.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.0750, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
-%ADD45R, 0.0750 X0.0750*%
-G04  D46 : "Rectangle X79.0mil Y79.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD47R, 0.0750 X0.0750*%
+G04  D48 : "Rectangle X79.0mil Y79.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.0790, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
-%ADD46R, 0.0790 X0.0790*%
-G04  D47 : "Rectangle X84.0mil Y84.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD48R, 0.0790 X0.0790*%
+G04  D49 : "Rectangle X84.0mil Y84.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.0840, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
-%ADD47R, 0.0840 X0.0840*%
-G04  D48 : "Rectangle X99.0mil Y99.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD49R, 0.0840 X0.0840*%
+G04  D50 : "Rectangle X99.0mil Y99.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Square: Side=0.0990, Rotation=0.0, OffsetX=0.0000, OffsetY=0.0000, HoleDia=0.0000*
-%ADD48R, 0.0990 X0.0990*%
-G04  D49 : "Ellipse X30.0mil Y30.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD50R, 0.0990 X0.0990*%
+G04  D51 : "Ellipse X30.0mil Y30.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Disc: OuterDia=0.0300*
-%ADD49C, 0.0300*%
-G04  D50 : "Ellipse X45.0mil Y45.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
+%ADD51C, 0.0300*%
+G04  D52 : "Ellipse X45.0mil Y45.0mil H0.0mil 0.0deg (0.0mil,0.0mil) Flash"*
 G04  Disc: OuterDia=0.0450*
-%ADD50C, 0.0450*%
+%ADD52C, 0.0450*%
 G04*
 %FSLAX44Y44*%
 %SFA1B1*%
