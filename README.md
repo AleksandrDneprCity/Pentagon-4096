@@ -348,14 +348,14 @@ bit 2, 3 - выбор 2-го порта расширения ОЗУ > 128 КБ (
 
 Биты порта #FC37:
 3  2     1  0
-EM1      EM0          SIMM 1M          SIMM 4M            Max Size
-0  0     0  0         128K             128K                128K
-0  0     0  1         Pent-1M          Pent-1M              1M (#7FFD биты 6, 7, 5)
-0  0     1  0         Profi-1M         Profi-1M             1M (#DFFD биты 0, 1, 2)
-0  0     1  1         #1FFD            #1FFD               512K (#1FFD биты 4, 7)
-0  1     1  1         KAY-1M           KAY-1M+Pent          4M (#1FFD биты 4, 7, #7FFD биты 6, 7, 5)
-1  0     1  0         Profi-1M         Profi-1M+Pent        4M (#DFFD биты 0, 1, 2, #7FFD биты 6, 7)
-1  1     1  0         Profi-1M         Profi-1M+1FFD        4M (#DFFD биты 0, 1, 2, #1FFD биты 4, 7)
+EM1      EM0          SIMM 1M          SIMM 4M            Max Size                                      Size (без участия бита защёлки D5 7FFD)
+0  0     0  0         128K             128K                128K                                          128K
+0  0     0  1         Pent-1M          Pent-1M              1M (#7FFD биты 6, 7, 5)                      512K (#7FFD биты 6, 7)
+0  0     1  0         Profi-1M         Profi-1M             1M (#DFFD биты 0, 1, 2)                       1M (#DFFD биты 0, 1, 2)
+0  0     1  1         #1FFD            #1FFD               512K (#1FFD биты 4, 7)                        512K (#1FFD биты 4, 7)
+0  1     1  1         KAY-1M           KAY-1M+Pent          4M (#1FFD биты 4, 7, #7FFD биты 6, 7, 5)      2M (#1FFD биты 4, 7, #7FFD биты 6, 7)
+1  0     1  0         Profi-1M         Profi-1M+Pent        4M (#DFFD биты 0, 1, 2, #7FFD биты 6, 7)      4M (#DFFD биты 0, 1, 2, #7FFD биты 6, 7)
+1  1     1  0         Profi-1M         Profi-1M+1FFD        4M (#DFFD биты 0, 1, 2, #1FFD биты 4, 7)      4M (#DFFD биты 0, 1, 2, #1FFD биты 4, 7)
 
 Примечание: В любой из выбранной конфигурации ОЗУ, где задействуется бит 5 порта #7FFD для расширения ОЗУ, доступность такого расширения зависит от опции BIOS "Бит 5 #7FFD защёлка или расширение".
 
