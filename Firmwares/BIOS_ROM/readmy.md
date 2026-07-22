@@ -4,6 +4,7 @@ BIOS ROM v4.2 для нового Pentagon-4096.
 Переходная версия BIOS после версии 3.2 для Pentagon-1024 1.4, доработанного под Pentagon-4096.
 
 History versions:
+
 v3.2
 Базовая версия BIOS для старой версии Pentagon-1024 1.4.
 
